@@ -11,35 +11,35 @@ Exploratory data analysis is used to understand the messages within a dataset. T
 
 ALGORITHM:
 
-##STEP 1
+## STEP 1
 
 Import the built libraries required to perform EDA and outlier removal.
 
-##STEP 2
+## STEP 2
 
 Read the given csv file
 
-##STEP 3
+## STEP 3
 
 Convert the file into a dataframe and get information of the data.
 
-##STEP 4
+## STEP 4
 
 Return the objects containing counts of unique values using (value_counts()).
 
-##STEP 5
+## STEP 5
 
 Plot the counts in the form of Histogram or Bar Graph.
 
-##STEP 6
+## STEP 6
 
 Use seaborn the bar graph comparison of data can be viewed.
 
-##STEP 7
+## STEP 7
 
 Find the pairwise correlation of all columns in the dataframe.corr()
 
-##STEP 8
+## STEP 8
 
 Save the final data set into the file
 
@@ -90,35 +90,35 @@ df.corr()
 sns.heatmap(df.corr(),annot=True)
 ~~~
 
-#OUTPUT
+# OUTPUT
 
-##DATA
+## DATA
 
 ![image](https://user-images.githubusercontent.com/129851738/230834576-9bf84bad-fcca-4ae1-9bea-336618ffc71e.png)
 
-##Data.info
+## Data.info
 
 ![image](https://user-images.githubusercontent.com/129851738/230834878-b4153af0-d2a4-4025-87c9-de93e00bd4ee.png)
 
-##Data.describe
+## Data.describe
 
 ![image](https://user-images.githubusercontent.com/129851738/230835262-5b204e15-edf8-48b8-9dc4-ef9a2d1846b6.png)
 
-##Checking the null values and Cleaning it
+## Checking the null values and Cleaning it
 
 ![image](https://user-images.githubusercontent.com/129851738/230835500-49345bb9-430a-41c3-85bd-d498c2b48459.png)
 
 ![image](https://user-images.githubusercontent.com/129851738/230835554-c109fff9-08c4-41b4-9487-de8402754fc5.png)
 
-##DATA TYPES
+## DATA TYPES
 
 ![image](https://user-images.githubusercontent.com/129851738/230835641-d81bdb7a-a077-4b10-a383-092802be084b.png)
 
-##SCATTER PLOT
+## SCATTER PLOT
 
 ![image](https://user-images.githubusercontent.com/129851738/230835742-498271f9-0852-42b2-8fd1-63665c14e00e.png)
 
-##BAR PLOT
+## BAR PLOT
 
 ![image](https://user-images.githubusercontent.com/129851738/230835809-97474c9e-0760-4f6f-833d-c7daa98ae538.png)
 
@@ -131,15 +131,15 @@ sns.heatmap(df.corr(),annot=True)
 
 ![image](https://user-images.githubusercontent.com/129851738/230835926-68f14d0f-feb9-481e-8e96-36051d4c84ca.png)
 
-##CORRELATION COEFFICIENT INTERPRETATION
+## CORRELATION COEFFICIENT INTERPRETATION
 
 ![image](https://user-images.githubusercontent.com/129851738/230836014-f0b690cf-ac1b-48dc-923a-0586994a6e85.png)
 
-##HEATMAP
+## HEATMAP
 
 ![image](https://user-images.githubusercontent.com/129851738/230836101-9629b535-eda6-42d7-8316-84f6b4637a71.png)
 
-#RESULT
+# RESULT
 
 Thus we have read the given data and performed the multivariate analysis with different types of plots.
 
